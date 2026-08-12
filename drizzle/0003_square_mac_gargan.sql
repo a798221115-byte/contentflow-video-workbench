@@ -1,0 +1,21 @@
+ALTER TABLE `content_items` ADD `workflow_profile` text DEFAULT 'history-v3.11.0' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `intake_mode` text DEFAULT 'video_link' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `run_mode` text DEFAULT 'derivative' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `book_title` text DEFAULT '' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `book_author` text DEFAULT '' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `evidence_status` text DEFAULT 'pending' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `evidence_notes` text DEFAULT '' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `originality_status` text DEFAULT 'pending' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `originality_similarity` text DEFAULT '' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `script_approval` text DEFAULT 'pending' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `compliance_status` text DEFAULT 'pending' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `titles_status` text DEFAULT 'pending' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `title_candidates` text DEFAULT '' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `selected_long_title` text DEFAULT '' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `selected_short_title` text DEFAULT '' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `selected_topics` text DEFAULT '' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `style_sample_status` text DEFAULT 'pending' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `images_approval` text DEFAULT 'pending' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `delivery_status` text DEFAULT 'pending' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `publication_status` text DEFAULT 'locked' NOT NULL;--> statement-breakpoint
+ALTER TABLE `content_items` ADD `analytics_horizon` text DEFAULT '' NOT NULL;
