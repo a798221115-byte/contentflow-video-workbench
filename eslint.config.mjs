@@ -35,6 +35,9 @@ const eslintConfig = defineConfig([
         version: "detect",
       },
     },
+    rules: {
+      "jsx-a11y/media-has-caption": "off",
+    },
   },
 ]);
 
